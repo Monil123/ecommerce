@@ -4,10 +4,10 @@ public class Book {
 	private int bookID;
 	private String title;
     private String authors;
-    private float average_rating;
-    private long isbn;
+    private String average_rating;
+    private String isbn;
     private String language_code;
-    private long ratings_count;
+    private String ratings_count;
     private int price;
     
 	public int getBookID() {
@@ -28,16 +28,16 @@ public class Book {
 	public void setAuthors(String authors) {
 		this.authors = authors;
 	}
-	public float getAverage_rating() {
+	public String getAverage_rating() {
 		return average_rating;
 	}
-	public void setAverage_rating(float average_rating) {
+	public void setAverage_rating(String average_rating) {
 		this.average_rating = average_rating;
 	}
-	public long getIsbn() {
+	public String getIsbn() {
 		return isbn;
 	}
-	public void setIsbn(long isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 	public String getLanguage_code() {
@@ -46,10 +46,10 @@ public class Book {
 	public void setLanguage_code(String language_code) {
 		this.language_code = language_code;
 	}
-	public long getRatings_count() {
+	public String getRatings_count() {
 		return ratings_count;
 	}
-	public void setRatings_count(long ratings_count) {
+	public void setRatings_count(String ratings_count) {
 		this.ratings_count = ratings_count;
 	}
 	public int getPrice() {
